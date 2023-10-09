@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Ubuntu&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    background-color: rgb(28, 28, 28);
+    height: 70px;
+    color: white;
+}
+
+.brand img{
+    border-radius: 50%;
+    width: 70px;
+    height: 100%;
+}
+
+.name{
+    margin-left: 20px;
+    font-family: 'Lugrasimo', cursive;
+    font-size: 25px;
+    color: goldenrod;
+    font-weight: 800;
+}
+
+.name2{
+     padding-left: 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    margin-left: 30px;
+    list-style: none;
+}
+
+.navbar ul li{
+    padding: 12px;
+}
+
+.search {
+    width: 50%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #52030b;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 10px;
+    outline: none;
+    color: #000000;
+  }
+  
+  .searchTerm:focus{
+    color: #0a0352;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #a20c0c;
+    background: #6e020b;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+
+.nav-login p{
+  margin-left: 320px;
+}
+
+.container{
+  background-color: rgb(241, 199, 9);
+  display: flex;
+  height: 550px;
+  margin: 45px;
+  border-radius: 15px;
+}
+
+.container img{
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.songlist{
+  overflow-y: scroll;
+  scrollbar-color: rgb(146, 146, 151) #000000;
+  color: white;
+  width: 30%;
+  background-color: #000000;
+}
+
+.headline{
+  font-family: 'Lugrasimo', cursive;
+  text-align: center;
+}
+
+.songItem{
+  height: 40px;
+  display: flex;
+  background-color: rgb(214, 241, 238);
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+}
+
+.songItem span{
+  font-size: 20px;
+}
+
+.songItem img{
+  width: 43px;
+  margin: 0 23px;
+  border-radius: 34px;
+}
+
+#gif{
+  margin-left: 37%;
+  width: 20%;
+  height: 40px;
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+
+.bottom{
+  height: 60px;
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.bottom img{
+  width: 43px;
+  margin: 0 23px;
+  border-radius: 5px;
+}
+
+.bottom p{
+  width: 20%;
+}
+
+.icon{
+  justify-content: center;
+  margin-left: 20%;
+}
+
+.icon i{
+  padding-left: 5px; padding-right: 5px;
+}
+
+.volume{
+  display: flex;
+  margin-left: 30%;
+}
+
+#volumebar{
+  width: 40%;
+  margin-left: 7px;
+}
+
+.artist{
+  height: 500px;
+}
+.hidden{
+  display: none;
+}

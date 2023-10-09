@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="assets/js/main.js"></script>
+  <title>PlayBeat</title>
+</head>
+<body>
+  <div class="navbar">
+    <div class="brand"><img src="assets/img/logo.png" alt=""></div>
+    <div class="name">
+      <p class="name1">Play</p>
+      <p class="name2">Beat</p>
+    </div>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+    </ul>
+    <div class="search">
+      <input type="text" class="searchTerm" placeholder="Search">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+     </button>
+   </div>
+    <div class="nav-login">
+      <p>Login/Sign up</p>
+    </div>
+  </div>
+  <audio class="hidden" id="audio-player" controls="controls" src="assets/song/Set-Me-Free.mp3" type="audio/mpeg"></audio>
+  <div class="container">
+    <img src="assets/img/bts1.jpg" alt="bts">
+    <div class="songlist">
+      <h1 class="headline">My PlayList</h1>
+      <div id="playlistContainer">
+        <div class="songItem">
+          <img src="assets/img/cover1.webp" alt="1">
+          <span>Don't Leave Me</span>
+          <span class="songplaytime">5:30</span><i class="fas fa-2x fa-play-circle"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <img id="gif" src="assets/img/playing.gif" alt="bts">
+  </div>
+  <div class="bottom">
+      <img id="coverImage" src="assets/img/cover1.jpg" alt="bts">
+      <p id="player-title">Set Me Free</p>
+      <div class="icon">
+        <button id="prev"><i class="fas fa-2x fa-step-backward"></i></button>
+        <button id="playButton"><i class="fas fa-2x fa-play-circle"></i></button>
+        <button id="next"><i class="fas fa-2x fa-step-forward"></i></button>
+      </div>
+      <div class="volume">
+        <span>Volume</span><input type="range" name="range" id="volumebar" min="0.0" max="1.0" step="0.1" value="1">
+      </div>
+  </div>
+</body>
+</html>
+
